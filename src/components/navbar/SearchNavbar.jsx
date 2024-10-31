@@ -16,7 +16,6 @@ function SearchSideBar() {
 
     const {
         loading,
-        error,
         items: suggestions,
         hasMore,
     } = InfiniteSearch(searchText, pageNumber);
