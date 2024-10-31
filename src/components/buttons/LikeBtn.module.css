@@ -1,0 +1,45 @@
+.divWrapper{
+    position: relative;
+    padding-left: 1rem;
+
+}
+
+.postButton {
+    position: relative;
+    background-color: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.replyButton {
+    position: relative;
+    background-color: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+
+.subReplyButton {
+    position: relative;
+    background-color: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+    justify-self: flex-end;
+
+}
+
+.redHeart::before {
+    content: "♥";
+    color: rgb(250, 90, 90);
+    margin: 0.3rem;
+}
+
+.whiteHeart::before {
+    content: "♥";
+    margin: 0.3rem;
+}

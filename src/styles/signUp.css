@@ -1,0 +1,46 @@
+.modalCustom {
+    color: #36454F;
+    background-color: #15202b80;
+    padding-top: 70px;
+    /* .'' createBlogsBtn Postbtn */
+}
+
+.modalBackground {
+    background-color:#C0C0C0 !important;
+    border-color: #C0C0C0 !important;
+    /* .'' createBlogsBtn Postbtn */
+    
+}
+
+.modal-content {
+    /* modifies bootstrap class */
+    background-color: #C0C0C0 !important;
+}
+
+
+.buttonMain {
+    color: #36454F;
+    background-color:#C0C0C0;
+    border-radius: 10px;
+    border: none ;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.controlCustom {
+    background-color: #E5E4E2 !important;
+    /* .controlCustom createBlogsbtn LogIn */
+}
+
+.controlCustomWide {
+background-color: #E5E4E2 !important;
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 10rem;
+    line-height: 1.5rem;
+    /* '' createBlogsbtn postbtn */
+}

@@ -1,0 +1,44 @@
+.navbarMarginned {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+}
+
+.limitDiv {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+.feedWrapper {
+    flex: 1;
+    margin: 3rem;
+    /* height: 100vh; */
+    /* margin-bottom: 0; */
+    /* .feedWrapper blogsPage feedpage */
+}
+
+
+h1 {
+    font-weight: 600;
+}
+
+.blogsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.twoColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+    width: 15rem;
+    padding: 0;
+    margin: 0;
+}
+
+.twoColumns li {
+cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.button {
+    color: #36454F;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    border: 1px groove #36454F;
+    padding: 1px 5px 1px 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.06);
+    background-color: #6082B6;
+    color: aliceblue;
+
+}
+
+.button:hover {
+    scale: 1.2;
+}
+
+.modalCustom {
+    color: #36454F;
+    background-color: #15202b80;
+    padding-top: 70px;
+}
+
+.modalBackground {
+    background-color: #C0C0C0 !important;
+    border-color: #C0C0C0 !important;
+
+}
+
+.controlCustom {
+    background-color: #E5E4E2 !important;
+}
+
+.controlCustomWide {
+    background-color: #E5E4E2 !important;
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 10rem;
+    line-height: 1.5rem;
+}

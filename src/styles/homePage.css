@@ -1,0 +1,14 @@
+.underNavDisplay {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+    /* .navbarMarginned blogspage feedpage profilepage*/
+}
+
+.feedDiv {
+    flex: 1;
+    margin: 3rem;
+    height: 100vh;
+    margin-bottom: 0;
+    /* .feedWrapper blogsPage feedpage */
+}

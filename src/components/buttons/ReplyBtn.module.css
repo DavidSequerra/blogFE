@@ -1,0 +1,33 @@
+.flexerRelative {
+    display: flex;
+        position: relative;
+}
+
+.replyButton {
+    color: #36454F;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    border: none;
+    padding: 1px 5px 1px 5px;
+    font-size: 16px;
+    margin-left: 0.5rem;
+}
+
+.popoverWrapper {
+    min-width: fit-content !important;
+    background-color: #C0C0C0;
+}
+
+.width20r {
+    width: 20rem;
+}
+
+.popoverButton {
+    color: #36454F;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    border: none;
+    padding: 1px 5px 1px 5px;
+    font-size: 16px;
+    margin-top: 0.7rem;
+}

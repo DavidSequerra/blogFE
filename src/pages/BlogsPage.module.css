@@ -1,0 +1,50 @@
+.navbarMarginned {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+}
+
+.feedWrapper {
+    flex: 1;
+    margin: 3rem;
+    /* height: 100vh; */
+    /* margin-bottom: 0; */
+}
+
+.cardWrapper {
+    position: relative;
+    border: 3px solid #8aafd56f;
+    background-color: #5e9c8d96;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    /* .cardWrapper blogsPage */
+}
+
+.cardTitle {
+    flex-grow: 1;
+    margin-left: 16px;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #7393B3;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #4f827582;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    /* .'' blogspage */
+}
+
+.cardBody {
+    position: relative;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 3rem;
+    /* .'' blogsPage */
+}

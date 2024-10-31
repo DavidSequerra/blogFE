@@ -1,0 +1,72 @@
+.navbarMain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #36454F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3.5rem;
+    border-radius: 0px 0px 5px 5px;
+    z-index: 10;
+   /* .navbarWrapper navbar */
+}
+
+.navButton {
+    color: #C0C0C0;
+    background-color: inherit;
+    border: 0;
+    font-size: 1.5rem;
+    /* .navSmallWrapper navbar */
+}
+
+
+.flexer {
+    display: flex;
+    position: relative;
+    /* .flexerRelative repliessection replyBtn navbar feedpage*/
+}
+
+.magnifierG {
+    position: absolute;
+    top: 0.5rem;
+    left: 9.5rem;
+    color: #2125299d;
+    font-size: 1.5rem;
+    /* .magnifierIcon searchnavbar */
+}
+
+.searchBarMain {
+    padding-left: 3.125rem;
+    width: 21rem;
+    /* .formWrapper searchnavbar */
+}
+
+.paddLeft30 {
+    padding-left: 3.8rem;
+    height: 3.1rem;
+    font-size: 1.2rem;
+    /* .textInputA searchNavbar */
+}
+
+
+.paddHeight {
+    height: 3.1rem;
+    font-size: 1.2rem;
+    padding-left: 1.8rem;
+    /* .textInputB searchnavbar */
+}
+
+.shadowNav {
+    position: fixed;
+    top: 0;
+    left: 350px;
+    background-color: transparent;
+    color: transparent;
+    width: 100vw;
+    height: 97px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.06);
+    z-index: -1;
+    /* .'' navbar */
+}

@@ -1,0 +1,100 @@
+.navbarMarginned {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20rem;
+}
+
+.feedWrapper {
+    flex: 1;
+    margin: 3rem;
+    /* height: 100vh; */
+    /* margin-bottom: 0; */
+}
+
+.cardWrapper {
+    position: relative;
+    border: 3px solid #8aafd56f;
+    background-color: #5e9c8d96;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+.cardHeader {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #7393B3;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #4f827582;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.cardBody {
+    position: relative;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 3rem;
+}
+
+.cardFooter {
+    position: relative;
+    background-color: #4f827582;
+    border: 1px solid #7393B3;
+    border-radius: 5px 5px 20px 20px;
+    padding: 0.5rem;
+    width: auto;
+}
+
+.underliner {
+    text-decoration: underline;
+}
+
+.underliner:hover {
+    cursor: pointer;
+}
+
+.flexerRelative {
+    display: flex;
+    position: relative;
+}
+
+.feedUserAvatar {
+    position: relative;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    overflow: hidden;
+}
+
+.contentWrapper {
+    display: flex;
+    position: relative;
+    padding: 0.8rem 2rem;
+    justify-content: space-between;
+}
+.pageHeader{
+    margin-bottom: 3rem;
+}
+
+.pageHeaderSections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.feedTitle {
+    margin: 0;
+    flex-grow: 2;
+    font-size: 3rem;
+}

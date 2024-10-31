@@ -1,0 +1,129 @@
+.bigCard {
+    position: relative;
+    border: 3px solid #8aafd56f;
+    background-color: #5e9c8d96;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    /* .cardWrapper blogsPage feedPage*/
+}
+
+.cardHeader {
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid #7393B3;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #4f827582;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    /* .'' blogspage feedPage*/
+}
+
+.cardBody {
+    position: relative;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 3rem;
+    /* .'' blogsPage feedPage */
+}
+
+.cardFooter {
+    position: relative;
+    background-color: #4f827582;
+    border: 1px solid #7393B3;
+    border-radius: 5px 5px 20px 20px;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+    width: auto;
+    /* .'' feedPage  */
+}
+
+.cardUserWrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 120%;
+    /* .cardWrapper usercard */
+}
+
+.cardUserAvatar {
+    position: relative;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    overflow: hidden;
+    /* .feedUserAvatar feedPage*/
+}
+.navUserAvatar {
+    position: relative;
+    border: 1px solid aliceblue;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    overflow: hidden;
+    /* .'' navbar */
+}
+
+.replyUserAvatar {
+    position: relative;
+        border: 1px solid aliceblue;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 0.3rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        overflow: hidden;
+        /* .replyUserAvatar repliessection */
+}
+.underliner {
+    text-decoration: underline;
+    /* .'' feedPage */
+}
+
+.width100 {
+    margin-right: 2rem;
+    width: 100%;
+    /* .divWrapper repliesSection */
+}
+
+.logOutButton {
+    margin-left: 2rem;
+    font-size: 70%;
+    /* align-self: center; */
+    /* margin-top: 0.3rem; */
+    /* .'' navbar */
+}
+
+.iconOut {
+    margin-left: 0.3rem;
+    font-size: 80%;
+    /* .'' navbar */
+}
+
+
+
+.imgIcon {
+    position: absolute;
+    width: 150%;
+    right: 0;
+    left:-0.5rem;
+    bottom:0;
+    top: -0.4rem;
+    /* .'' usercard */
+
+}
+
+.marginB02 {
+    margin-bottom: 0.2rem;
+    /* .marginB02r navbar */
+}

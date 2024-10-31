@@ -1,0 +1,84 @@
+.sideBarWrapper {
+    position: fixed;
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        top: 6.1rem;
+        height: 100vh;
+        border-radius: 5px;
+        box-shadow: 30px 0px 30px rgba(0, 0, 0, 0.06);
+        border-top: hidden;
+        left: 0;
+        width: 20rem;
+        background-color: #6082B6;
+        /* min-width: fit-content; */
+        
+}
+.sectionsWrapper {
+    border-bottom: 1px solid #7393B3;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-right: 1.2rem;
+        padding-left: 1.2rem;
+    
+    padding-bottom: 0.5rem;
+    
+}
+
+.title {
+    padding: 0.5rem;
+        font-size: 1.5rem;
+        padding-top: 1.2rem;
+}
+
+.listedItems {
+    font-size: 1.3rem;
+    padding-left: 1.15rem;
+    list-style: none;
+}
+
+.listedItems:hover {
+  cursor: pointer;
+}
+
+.listedItems li {
+    position: relative;
+    padding-left: 2rem;
+    
+}
+.listedItems li p {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+.listedItems li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    /* better vertical alignment */
+    top: -2px;
+    /* transform: translateY(-50%); */
+    /* Vertical alignment */
+    color: aliceblue;
+    font-size: 1.5rem;
+    
+    
+}
+.listedItems li p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: aliceblue;
+    transition: width 0.3s ease;
+   
+}
+
+.listedItems li p:hover::after {
+    width: 100%;
+}

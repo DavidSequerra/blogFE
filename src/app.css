@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #7393B3;
+    color: aliceblue;
+    height: 100vh;
+    text-align: center;
+}
+
+.redimensionPage {
+    padding-top: 100px;
+}

@@ -1,0 +1,43 @@
+.logSignBox {
+    text-align: center;
+    border: 1px solid black;
+    height: fit-content;
+    width: 100%;
+    padding: 3%;
+    margin: 1%;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.503);
+    border-radius: 5px;
+    /* .'' homepageOut */
+}
+
+.flexerRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0px !important;
+    padding: 5%;
+    /* .logSignWrapper homepageout */
+}
+
+.homePageOFrame {
+    padding-top: 3rem;
+    /* .paddingT3r homePageOut*/
+}
+
+.formFrame {
+    padding-bottom: 0.33rem;
+    padding-top: 1rem;
+    /* .formWrapper login signup profilepage*/
+}
+
+.formGroupFrames {
+    padding-bottom: 1rem;
+    /* paddingB1r login signup profilepage*/
+}
+
+.padT2 {
+    padding-top: 5rem;
+    /* paddingT5r login signup*/
+}
+

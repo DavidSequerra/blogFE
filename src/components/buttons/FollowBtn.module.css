@@ -1,0 +1,24 @@
+.followButton {
+        background-color: inherit;
+        border: none;
+        color: white;
+        cursor: pointer;
+}
+
+.divFollow {
+        font-size: 16px;
+}
+
+.yellowStar::before {
+    content: "★";
+    color: rgb(250, 220, 90);
+    margin: 0.3rem;
+    /* font-size: 50%; */
+}
+
+.whiteStar::before {
+    content: "★";
+    margin: 0.3rem;
+    /* font-size: 50%; */
+    
+}

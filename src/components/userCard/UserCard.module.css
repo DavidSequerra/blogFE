@@ -1,0 +1,17 @@
+.cardWrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.imgIcon {
+    position: absolute;
+    width: 150%;
+    left: -0.5rem;
+    top: -0.5rem;
+    align-items: center;
+
+}
+
+.usernameDisplay{
+    align-items: center;
+}

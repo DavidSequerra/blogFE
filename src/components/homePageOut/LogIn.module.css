@@ -1,0 +1,28 @@
+.formWrapper {
+    padding-bottom: 0.33rem;
+    padding-top: 1rem;
+}
+
+.paddingB1r {
+    padding-bottom: 1rem;
+}
+
+.controlCustom {
+    background-color: #E5E4E2 !important;
+}
+
+.button {
+    color: #36454F;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    border: none;
+    padding: 1px 5px 1px 5px;
+    font-size: 16px;
+
+}
+.button:hover {
+    scale: 1.2;
+}
+.paddingT5r{
+    padding-top: 5rem;
+}
